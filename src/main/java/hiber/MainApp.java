@@ -37,7 +37,7 @@ public class MainApp {
          System.out.println();
       }
       System.out.println("Поиск пользователя по автомобилю");
-      System.out.println(userService.getUser("Camry", 40));
+      System.out.println(userService.getUser("Lada", 53));
 
       context.close();
    }
